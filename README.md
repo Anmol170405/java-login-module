@@ -1,4 +1,4 @@
-# Retro Login Terminal — Experiment H
+JUNIT TEST - SOFTWARE ENGINEERING
 
 > A Java authentication system with retro terminal UI, input validation, SQL injection detection, account lockout, and 30 JUnit 5 unit tests.
 
@@ -7,7 +7,6 @@
 ---
 
 ## What It Does
-
 This project simulates a real-world login system built in plain Java (no frameworks). A user enters a username and password in the terminal. The system validates the input, checks it against an in-memory database, and either grants or denies access — with animated retro output.
 
 **Key features:**

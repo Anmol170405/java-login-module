@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Login App",
+      "request": "launch",
+      "mainClass": "com.loginapp.LoginApp",
+      "classPaths": ["${workspaceFolder}/out"]
+    }
+  ]
+}

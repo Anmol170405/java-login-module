@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile",
+      "type": "shell",
+      "command": "javac",
+      "args": [
+        "-d", "out",
+        "src/com/loginapp/model/User.java",
+        "src/com/loginapp/model/UserDatabase.java",
+        "src/com/loginapp/exception/LoginException.java",
+        "src/com/loginapp/service/InputValidator.java",
+        "src/com/loginapp/service/AuthService.java",
+        "src/com/loginapp/ui/RetroUI.java",
+        "src/com/loginapp/LoginApp.java"
+      ],
+      "group": "build",
+      "presentation": { "reveal": "always", "panel": "shared" },
+      "problemMatcher": "$javac"
+    },
+    {
+      "label": "Run App",
+      "type": "shell",
+      "command": "java",
+      "args": ["-cp", "out", "com.loginapp.LoginApp"],
+      "dependsOn": "Compile",
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "always", "panel": "shared" }
+    },
+    {
+      "label": "Run Tests",
+      "type": "shell",
+      "command": "test.bat",
+      "group": "test",
+      "presentation": { "reveal": "always", "panel": "shared" }
+    }
+  ]
+}

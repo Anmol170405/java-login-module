@@ -2,7 +2,7 @@
 
 > A Java authentication system with retro terminal UI, input validation, SQL injection detection, account lockout, and 30 JUnit 5 unit tests.
 
-**Live Demo →** https://YOUR-USERNAME.netlify.app
+**Live Demo →** https://java-login-module.netlify.app/
 
 ---
 
